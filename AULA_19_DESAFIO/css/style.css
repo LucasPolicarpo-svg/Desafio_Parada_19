@@ -1,0 +1,30 @@
+body{
+    background-image: linear-gradient(to bottom right, red, yellow);
+}
+
+#box{
+    width: 640px;
+    height: 427px;
+    border: 2px solid black;
+    margin: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.flex{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.slt select{
+    font-size: 30px;
+    padding: 20px;
+}
+
+.btn button{
+    font-size: 30px;
+    padding: 20px;
+    background-image: linear-gradient(to bottom right, black, white);
+}
